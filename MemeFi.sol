@@ -51,10 +51,10 @@ pragma solidity 0.8.19;
     Governor can be renounced at any time to a community controlled contract or even the dEaD address.
                                                   \*/
 
-import "https://fuegolabs.xyz/contracts/ERC20.sol";
-import "https://fuegolabs.xyz/contracts/IUniswapV2Pair.sol";
-import "https://fuegolabs.xyz/contracts/IUniswapV2Factory.sol";
-import "https://fuegolabs.xyz/contracts/IUniswapV2Router02.sol";
+import "https://github.com/memefidev/contracts/blob/main/ERC20.sol";
+import "https://github.com/memefidev/contracts/blob/main/IUniswapV2Pair.sol";
+import "https://github.com/memefidev/contracts/blob/main/IUniswapV2Factory.sol";
+import "https://github.com/memefidev/contracts/blob/main/IUniswapV2Router02.sol";
 
 error ContributionTooLow();
 error ListingDelayNotElapsed();
